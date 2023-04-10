@@ -15,7 +15,7 @@ module.exports = {
       files: ["src/**/*.graphql"],
       parser: "@graphql-eslint/eslint-plugin",
       plugins: ["@graphql-eslint"],
-      extends: ["plugin:@graphql-eslint/recommended"],
+      extends: ["plugin:@typescript-eslint/recommended"],
       parserOptions: {
         operations: ["./src/**/*.graphql"],
         schema: "./schema.graphql",
