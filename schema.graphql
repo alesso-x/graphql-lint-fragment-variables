@@ -2,12 +2,10 @@ type Query {
   widgets: [Widget!]
 }
 
-scalar Interval
-
 type Tag {
   id: ID!
   name: String
-  usageCount(interval: Interval!): Int
+  usageCount(interval: Int!): Int
 }
 
 type Widget {

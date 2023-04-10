@@ -1,9 +1,0 @@
-fragment WidgetWithTags on Widget {
-  id
-  name
-  tags {
-    id
-    name
-    count: usageCount(interval: $usageInterval)
-  }
-}
